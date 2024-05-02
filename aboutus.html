@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - VitaWise</title>
+    <link rel="stylesheet" href="aboutus.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <div class="background">
+        <div class="nav-bar">
+            <div class="right">
+                <a href="index.html">VitaWise</a>
+            </div>
+            <div class="left">
+                <a href="index.html">Welcome</a>
+                <a href="aboutus.html">About us</a>
+                <a href="page_doc.html">Check on your Patients</a>
+                <a href="login1.html"><i class="fas fa-user"></i></a>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="card" id="card1">
+                <div class="card-content">
+                    <h2>Passionate Professionals</h2>
+                    <p>At VitaWise, we are a team of passionate professionals dedicated to revolutionizing healthcare. Each member brings unique expertise and dedication to our mission.</p>
+                </div>
+            </div>
+            <div class="card" id="card2">
+                <div class="card-content">
+                    <h2>Innovative Solutions</h2>
+                    <p>We believe in pushing the boundaries of what's possible in healthcare. Our innovative solutions empower both healthcare providers and patients to achieve better outcomes.</p>
+                </div>
+            </div>
+            <div class="card" id="card3">
+                <div class="card-content">
+                    <h2>Empowering Care</h2>
+                    <p>Empowerment lies at the core of everything we do. From personalized care plans to cutting-edge technologies, we strive to empower individuals to take control of their health and well-being.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script >
+      document.addEventListener("DOMContentLoaded", function() {
+    const cards = document.querySelectorAll('.card');
+
+    cards.forEach(card => {
+        card.addEventListener('mouseover', function() {
+            this.style.backgroundColor = 'lightblue';
+        });
+
+        card.addEventListener('mouseout', function() {
+            this.style.backgroundColor = 'azure';
+        });
+    });
+});
+    </script>
+</body>
+</html>

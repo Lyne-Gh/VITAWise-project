@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-image: url('loginbg.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.signup-form * {
+    color: #fff;
+}
+
+
+.container {
+    width: 300px;
+    background-color:rgb(113,98,197, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25),
+    0 10px 10px rgba(225, 213, 213, 0.22);
+}
+
+input {
+    background: #eee;
+    padding: 12px 15px;
+    margin: 8px 15px;
+    width: 100%;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.signup-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.signup-form input[type="text"],
+.signup-form input[type="email"],
+.signup-form input[type="password"] {
+    width: calc(100% - 40px);
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+.signup-form button[type="submit"] {
+    width: 200px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #df7af4;
+    color: azure;
+    font-weight: bold;
+    cursor: pointer;
+    transform: translateX(50px);
+    transition: background-color 0.3s;
+}
+
+.signup-form button[type="submit"]:hover {
+    background-color: azure;
+    color: #df7af4;
+}
+
+.signup-form p {
+    text-align: center;
+    color: azure; 
+}
+
+.signup-form p a {
+    color: azure;
+    text-decoration: none;
+}
+
+.signup-form p a:hover {
+    text-decoration: underline;
+}
+
+.dob{
+    width: 250px;
+    color: #333;
+}
+
